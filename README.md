@@ -7,10 +7,8 @@
 2. Compile and run the program using the following commands:
 
 ```bash
-g++ -o output.exe input.cpp output.exe
+g++ -o main.exe main.cpp main.exe
 ```
-
-Replace `input.cpp` with the name of your `.cpp` file and `output.exe` with the desired name of the executable file.
 
 ### Linux/macOS
 
@@ -18,9 +16,7 @@ Replace `input.cpp` with the name of your `.cpp` file and `output.exe` with the 
 2. Compile and run the program using the following commands:
 
 ```bash
-g++ -o output input.cpp ./output
+g++ -o main main.cpp ./main
 ```
-
-Replace `input.cpp` with the name of your `.cpp` file and `output` with the desired name of the executable file.
 
 ## Note: Make sure you have a C++ compiler installed on your system.
